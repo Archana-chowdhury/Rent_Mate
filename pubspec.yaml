@@ -1,0 +1,50 @@
+name: rent_mate
+description: "Community-based rental management Flutter app by KONREDDY AKHIL REDDY"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.12
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.1
+  carousel_slider: ^5.0.0
+  provider: ^6.1.2
+  flutter_bloc: ^9.1.1
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  firebase_storage: ^12.4.5
+  shared_preferences: ^2.2.3
+  intl: ^0.18.1
+  sqflite: ^2.3.0
+  path_provider: ^2.1.5
+  geolocator: ^14.0.0
+  google_maps_flutter: ^2.5.3
+  geocoding: ^3.0.0
+  image_picker: ^1.0.7
+  url_launcher: ^6.3.1
+  connectivity_plus: ^6.1.4
+  permission_handler: ^12.0.0+1
+  share_plus: ^11.0.0
+  firebase_core_platform_interface: ^5.4.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
