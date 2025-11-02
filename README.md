@@ -1,72 +1,132 @@
+cat > README.md << 'EOF'
 # 🏠 RentMate - Community-Based Rental Management Mobile App
 
-**Developer:** KONREDDY AKHIL REDDY  
-**Email:** akhilreddykonreddy@gmail.com  
-**Portfolio:** [akhilreddy-24.github.io](https://akhilreddy-24.github.io)  
-**LinkedIn:** [linkedin.com/in/akhilreddy24](https://linkedin.com/in/akhilreddy24)
+**Developer:** Archana Chowdhury  
+**Email:** archana9014060147@gmail.com  
+**GitHub:** [github.com/Archana-chowdhury](https://github.com/Archana-chowdhury)  
 
-A cross-platform Flutter mobile application that revolutionizes community-based rental management with AI-powered features and seamless user experience.
+A cross-platform Flutter mobile application that revolutionizes community-based rental management with seamless user experience and real-time features.
 
-## 🚀 Enhanced Features
+## 🚀 Features
 
-### Core Functionality
-- **User Authentication** - Secure email/password login with Firebase Auth
-- **Smart Listing Management** - AI-powered property recommendations
-- **Advanced Booking System** - Intelligent booking lifecycle management
-- **Real-time Messaging** - In-app chat between owners and renters
-- **Multi-image Support** - Cloud-based image upload and management
-
-### AI & Advanced Features
-- **Weather Intelligence** - WeatherAPI integration for booking date forecasts
-- **Location-based Services** - GPS integration for nearby property discovery
-- **Smart Notifications** - Push notifications for booking updates
-- **Offline Capability** - Cached listings for offline browsing
-- **Direct Communication** - Native call integration for instant contact
+- **User Authentication** - Secure Firebase authentication
+- **Property Management** - Create, browse, and manage rental listings
+- **Booking System** - Complete booking lifecycle management
+- **Real-time Messaging** - In-app chat between users
+- **Location Services** - GPS integration for nearby properties
+- **Weather Integration** - Weather forecasts for booking dates
+- **Image Management** - Multiple image upload and display
+- **Offline Support** - Cached listings for offline browsing
 
 ## 🛠️ Tech Stack
 
-### Frontend & Mobile
-- **Flutter** (v3.7.0+) - Cross-platform framework
-- **Dart** (v3.0.0+) - Programming language
-- **Material Design** - Modern UI components
+- **Flutter** - Cross-platform framework
+- **Dart** - Programming language
+- **Firebase** - Backend services (Auth, Firestore, Storage)
+- **WeatherAPI** - Weather forecasting
+- **Google Maps** - Location services
 
-### Backend & Services
-- **Firebase Authentication** - Secure user management
-- **Cloud Firestore** - Real-time database
-- **Firebase Storage** - Media file management
-- **WeatherAPI** - Weather forecasting service
-- **Google Maps API** - Location services
+## 🚀 Quick Start
 
-### Device Integration
-- **Camera API** - Property image capture
-- **Geolocation** - Location-based services
-- **Phone Integration** - Direct calling capability
-- **Push Notifications** - Real-time alerts
-
-## 📱 Project Architecture
-lib/
-├── config/ # App configuration & theme
-├── models/ # Data models (User, Listing, Booking)
-├── screens/ # UI screens & navigation
-├── services/ # Business logic & API integration
-├── utils/ # Helper functions & constants
-└── widgets/ # Reusable UI components
-
-## 🎯 Installation & Setup
-
-### Prerequisites
-- Flutter SDK 3.7.0+
-- Dart SDK 3.0.0+
-- Firebase Project
-- WeatherAPI Account
-
-### Quick Start
 ```bash
-# Clone repository
-git clone 
+# Clone the repository
+git clone https://github.com/Archana-chowdhury/Rent_Mate.git
 
 # Install dependencies
 flutter pub get
 
-# Run application
+# Run the application
 flutter run
+📱 App Features Demo
+Authentication & Onboarding
+Secure user registration and login
+
+Beautiful onboarding experience
+
+Property Management
+Add new rental listings with images
+
+Browse available properties
+
+Filter and search functionality
+
+Booking System
+Request bookings with date selection
+
+Weather-integrated booking suggestions
+
+Booking status tracking
+
+Communication
+Real-time messaging between users
+
+Push notifications for updates
+
+Direct contact options
+
+🔧 Installation & Setup
+Prerequisites
+Flutter SDK 3.7.0+
+
+Dart SDK 3.0.0+
+
+Firebase Project
+
+WeatherAPI Account
+
+Firebase Setup
+Create Firebase project at console.firebase.google.com
+
+Enable Authentication, Firestore, and Storage
+
+Add Android/iOS apps and download config files
+
+Update firebase_options.dart with your credentials
+
+API Integration
+Get WeatherAPI key from weatherapi.com
+
+Replace API key in weather_service.dart
+
+📁 Project Structure
+lib/
+├── config/           # App configuration & theme
+├── models/           # Data models (User, Listing, Booking)
+├── screens/          # UI screens & navigation
+│   ├── auth/         # Authentication screens
+│   ├── home/         # Dashboard and main screens
+│   ├── listings/     # Property management
+│   ├── bookings/     # Booking system
+│   └── messages/     # Chat functionality
+├── services/         # Business logic & API integration
+├── utils/            # Helper functions & constants
+└── widgets/          # Reusable UI components
+👩‍💻 Developer
+Archana Chowdhury
+Mobile App Developer | Flutter Enthusiast
+
+📧 Email: archana9014060147@gmail.com
+
+🔗 GitHub: github.com/Archana-chowdhury
+
+📄 License
+This project is licensed under the MIT License.
+EOF
+
+
+---
+
+## **📤 COMMIT AND PUSH THE UPDATED README:**
+
+After updating the README, run:
+
+```bash
+# Add the updated README.md
+git add README.md
+
+# Commit the changes
+git commit -m "docs: Update README with complete project information and developer details"
+
+# Push to GitHub
+git push origin main
+
